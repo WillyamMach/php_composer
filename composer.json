@@ -1,0 +1,14 @@
+{
+    "name": "willyammach/buscador-cursos",
+    "description": "Projeto para buscar diversos cursos na alura",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Willyam Mach",
+            "email": "willyam.mach@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.8", s
+    }
+}
