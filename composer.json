@@ -1,15 +1,21 @@
 {
-    "name": "willyammach/buscador-cursos",
-    "description": "Projeto para buscar diversos cursos na alura",
+    "name": "cviniciussdias/buscador-cursos",
+    "description": "Projeto que busca os cursos no site da Alura",
     "type": "library",
     "authors": [
         {
-            "name": "Willyam Mach",
-            "email": "willyam.mach@gmail.com"
+            "name": "Vinicius Dias",
+            "email": "carlosv775@gmail.com"
         }
     ],
     "require": {
         "guzzlehttp/guzzle": "^6.3",
         "symfony/dom-crawler": "^4.2",
         "symfony/css-selector": "^4.2"
-    }}
+    },
+    "autoload": {
+        "psr-4": {
+            "Alura\\BuscadorDeCursos\\": "src/"
+        }
+    }
+}
