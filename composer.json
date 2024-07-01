@@ -20,5 +20,10 @@
     },
     "require-dev": {
         "phpunit/phpunit": "8.1.4"
+    },
+    "scripts": {
+        "test": "phpunit teste\\testBuscadorDeCursos.php",
+        "cs": "phpcs --standard=PSR12 src/",
+        "phan": "phpcs --allow-polyfill-parser"
     }
 }
